@@ -1,0 +1,38 @@
+@media(max-width:700px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    position: sticky;
+    background-color: var(--blue);
+    color: white;
+    top: 0;
+    
+}
+.container h1{
+    cursor: pointer;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+.container li:hover{
+    display:flex;
+    background-color: var(--hover_blue);
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

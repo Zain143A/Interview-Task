@@ -1,0 +1,58 @@
+@media(max-width:700px ){
+    .MainContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .newUser{
+        display: flex;       
+    }
+}
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    padding: 0 5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.users :hover{
+    transform: scale(1.1);
+    transition: all .2s ease-out;
+}
+.user img{
+    width:3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    border: 1px solid #ccc;
+    margin: .5rem;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 1rem;
+    width: 50vw;
+}
+.userInfo{
+    display: flex;
+    flex-direction: row;
+}
+.userInfo p{
+    font-size: 1.2rem;
+}
+.userInfo p,h3{
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 5vw;
+}
